@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03DF365318FE74E000C978B5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03DF365218FE74E000C978B5 /* Cocoa.framework */; };
+		03DF365D18FE74E000C978B5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03DF365B18FE74E000C978B5 /* InfoPlist.strings */; };
+		03DF365F18FE74E000C978B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03DF365E18FE74E000C978B5 /* main.m */; };
+		03DF366318FE74E000C978B5 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 03DF366118FE74E000C978B5 /* Credits.rtf */; };
+		03DF366618FE74E100C978B5 /* JRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03DF366518FE74E100C978B5 /* JRAppDelegate.m */; };
+		03DF366918FE74E100C978B5 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03DF366718FE74E100C978B5 /* MainMenu.xib */; };
+		03DF367218FE74E100C978B5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03DF367118FE74E100C978B5 /* XCTest.framework */; };
+		03DF367318FE74E100C978B5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03DF365218FE74E000C978B5 /* Cocoa.framework */; };
+		03DF367B18FE74E200C978B5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03DF367918FE74E200C978B5 /* InfoPlist.strings */; };
+		03DF367D18FE74E200C978B5 /* jrUUIDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03DF367C18FE74E200C978B5 /* jrUUIDTests.m */; };
+		03DF368718FEA1E600C978B5 /* jrUUID.icns in Resources */ = {isa = PBXBuildFile; fileRef = 03DF368618FEA1E600C978B5 /* jrUUID.icns */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03DF367418FE74E100C978B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03DF364718FE74E000C978B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03DF364E18FE74E000C978B5;
+			remoteInfo = jrUUID;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0330C339193EEDEF0095F3AE /* jrUUID.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = jrUUID.entitlements; sourceTree = "<group>"; };
+		03DF364F18FE74E000C978B5 /* jrUUID.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jrUUID.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03DF365218FE74E000C978B5 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		03DF365518FE74E000C978B5 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		03DF365618FE74E000C978B5 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		03DF365718FE74E000C978B5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		03DF365A18FE74E000C978B5 /* jrUUID-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "jrUUID-Info.plist"; sourceTree = "<group>"; };
+		03DF365C18FE74E000C978B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		03DF365E18FE74E000C978B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		03DF366018FE74E000C978B5 /* jrUUID-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "jrUUID-Prefix.pch"; sourceTree = "<group>"; };
+		03DF366218FE74E000C978B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		03DF366418FE74E100C978B5 /* JRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JRAppDelegate.h; sourceTree = "<group>"; };
+		03DF366518FE74E100C978B5 /* JRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JRAppDelegate.m; sourceTree = "<group>"; };
+		03DF366818FE74E100C978B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		03DF367018FE74E100C978B5 /* jrUUIDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jrUUIDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03DF367118FE74E100C978B5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		03DF367818FE74E200C978B5 /* jrUUIDTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "jrUUIDTests-Info.plist"; sourceTree = "<group>"; };
+		03DF367A18FE74E200C978B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		03DF367C18FE74E200C978B5 /* jrUUIDTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = jrUUIDTests.m; sourceTree = "<group>"; };
+		03DF368618FEA1E600C978B5 /* jrUUID.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = jrUUID.icns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03DF364C18FE74E000C978B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03DF365318FE74E000C978B5 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03DF366D18FE74E100C978B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03DF367318FE74E100C978B5 /* Cocoa.framework in Frameworks */,
+				03DF367218FE74E100C978B5 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03DF364618FE74E000C978B5 = {
+			isa = PBXGroup;
+			children = (
+				03DF365818FE74E000C978B5 /* jrUUID */,
+				03DF367618FE74E100C978B5 /* jrUUIDTests */,
+				03DF365118FE74E000C978B5 /* Frameworks */,
+				03DF365018FE74E000C978B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03DF365018FE74E000C978B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03DF364F18FE74E000C978B5 /* jrUUID.app */,
+				03DF367018FE74E100C978B5 /* jrUUIDTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03DF365118FE74E000C978B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03DF365218FE74E000C978B5 /* Cocoa.framework */,
+				03DF367118FE74E100C978B5 /* XCTest.framework */,
+				03DF365418FE74E000C978B5 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		03DF365418FE74E000C978B5 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03DF365518FE74E000C978B5 /* AppKit.framework */,
+				03DF365618FE74E000C978B5 /* CoreData.framework */,
+				03DF365718FE74E000C978B5 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		03DF365818FE74E000C978B5 /* jrUUID */ = {
+			isa = PBXGroup;
+			children = (
+				0330C339193EEDEF0095F3AE /* jrUUID.entitlements */,
+				03DF368618FEA1E600C978B5 /* jrUUID.icns */,
+				03DF366418FE74E100C978B5 /* JRAppDelegate.h */,
+				03DF366518FE74E100C978B5 /* JRAppDelegate.m */,
+				03DF366718FE74E100C978B5 /* MainMenu.xib */,
+				03DF365918FE74E000C978B5 /* Supporting Files */,
+			);
+			path = jrUUID;
+			sourceTree = "<group>";
+		};
+		03DF365918FE74E000C978B5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				03DF365A18FE74E000C978B5 /* jrUUID-Info.plist */,
+				03DF365B18FE74E000C978B5 /* InfoPlist.strings */,
+				03DF365E18FE74E000C978B5 /* main.m */,
+				03DF366018FE74E000C978B5 /* jrUUID-Prefix.pch */,
+				03DF366118FE74E000C978B5 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		03DF367618FE74E100C978B5 /* jrUUIDTests */ = {
+			isa = PBXGroup;
+			children = (
+				03DF367C18FE74E200C978B5 /* jrUUIDTests.m */,
+				03DF367718FE74E200C978B5 /* Supporting Files */,
+			);
+			path = jrUUIDTests;
+			sourceTree = "<group>";
+		};
+		03DF367718FE74E200C978B5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				03DF367818FE74E200C978B5 /* jrUUIDTests-Info.plist */,
+				03DF367918FE74E200C978B5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03DF364E18FE74E000C978B5 /* jrUUID */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03DF368018FE74E200C978B5 /* Build configuration list for PBXNativeTarget "jrUUID" */;
+			buildPhases = (
+				03DF364B18FE74E000C978B5 /* Sources */,
+				03DF364C18FE74E000C978B5 /* Frameworks */,
+				03DF364D18FE74E000C978B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = jrUUID;
+			productName = jrUUID;
+			productReference = 03DF364F18FE74E000C978B5 /* jrUUID.app */;
+			productType = "com.apple.product-type.application";
+		};
+		03DF366F18FE74E100C978B5 /* jrUUIDTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03DF368318FE74E200C978B5 /* Build configuration list for PBXNativeTarget "jrUUIDTests" */;
+			buildPhases = (
+				03DF366C18FE74E100C978B5 /* Sources */,
+				03DF366D18FE74E100C978B5 /* Frameworks */,
+				03DF366E18FE74E100C978B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03DF367518FE74E100C978B5 /* PBXTargetDependency */,
+			);
+			name = jrUUIDTests;
+			productName = jrUUIDTests;
+			productReference = 03DF367018FE74E100C978B5 /* jrUUIDTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03DF364718FE74E000C978B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JR;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "JR Apps";
+				TargetAttributes = {
+					03DF364E18FE74E000C978B5 = {
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+					03DF366F18FE74E100C978B5 = {
+						TestTargetID = 03DF364E18FE74E000C978B5;
+					};
+				};
+			};
+			buildConfigurationList = 03DF364A18FE74E000C978B5 /* Build configuration list for PBXProject "jrUUID" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03DF364618FE74E000C978B5;
+			productRefGroup = 03DF365018FE74E000C978B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03DF364E18FE74E000C978B5 /* jrUUID */,
+				03DF366F18FE74E100C978B5 /* jrUUIDTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03DF364D18FE74E000C978B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03DF365D18FE74E000C978B5 /* InfoPlist.strings in Resources */,
+				03DF366318FE74E000C978B5 /* Credits.rtf in Resources */,
+				03DF366918FE74E100C978B5 /* MainMenu.xib in Resources */,
+				03DF368718FEA1E600C978B5 /* jrUUID.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03DF366E18FE74E100C978B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03DF367B18FE74E200C978B5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03DF364B18FE74E000C978B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03DF366618FE74E100C978B5 /* JRAppDelegate.m in Sources */,
+				03DF365F18FE74E000C978B5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03DF366C18FE74E100C978B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03DF367D18FE74E200C978B5 /* jrUUIDTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03DF367518FE74E100C978B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03DF364E18FE74E000C978B5 /* jrUUID */;
+			targetProxy = 03DF367418FE74E100C978B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		03DF365B18FE74E000C978B5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03DF365C18FE74E000C978B5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		03DF366118FE74E000C978B5 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03DF366218FE74E000C978B5 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		03DF366718FE74E100C978B5 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03DF366818FE74E100C978B5 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		03DF367918FE74E200C978B5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03DF367A18FE74E200C978B5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03DF367E18FE74E200C978B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		03DF367F18FE74E200C978B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		03DF368118FE74E200C978B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = jrUUID/jrUUID.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "jrUUID/jrUUID-Prefix.pch";
+				INFOPLIST_FILE = "jrUUID/jrUUID-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		03DF368218FE74E200C978B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = jrUUID/jrUUID.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "jrUUID/jrUUID-Prefix.pch";
+				INFOPLIST_FILE = "jrUUID/jrUUID-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		03DF368418FE74E200C978B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/jrUUID.app/Contents/MacOS/jrUUID";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "jrUUID/jrUUID-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "jrUUIDTests/jrUUIDTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		03DF368518FE74E200C978B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/jrUUID.app/Contents/MacOS/jrUUID";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "jrUUID/jrUUID-Prefix.pch";
+				INFOPLIST_FILE = "jrUUIDTests/jrUUIDTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03DF364A18FE74E000C978B5 /* Build configuration list for PBXProject "jrUUID" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03DF367E18FE74E200C978B5 /* Debug */,
+				03DF367F18FE74E200C978B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03DF368018FE74E200C978B5 /* Build configuration list for PBXNativeTarget "jrUUID" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03DF368118FE74E200C978B5 /* Debug */,
+				03DF368218FE74E200C978B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03DF368318FE74E200C978B5 /* Build configuration list for PBXNativeTarget "jrUUIDTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03DF368418FE74E200C978B5 /* Debug */,
+				03DF368518FE74E200C978B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03DF364718FE74E000C978B5 /* Project object */;
+}
