@@ -47,4 +47,9 @@
     return [[NSPasteboard generalPasteboard] writeObjects:[NSArray arrayWithObject:stringToWrite]];
 }
 
+- (BOOL)applicationShouldTerminateAfterLastWindowClosed:(NSApplication *)sender
+{
+    return YES;
+}
+
 @end
