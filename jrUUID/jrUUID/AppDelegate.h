@@ -1,5 +1,5 @@
 //
-//  main.m
+//  AppDelegate.h
 //  jrUUID
 //
 //  Created by Joshua Luongo on 14/10/2014.
@@ -8,6 +8,8 @@
 
 #import <Cocoa/Cocoa.h>
 
-int main(int argc, const char * argv[]) {
-    return NSApplicationMain(argc, argv);
-}
+@interface AppDelegate : NSObject <NSApplicationDelegate>
+
+
+@end
+

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="6249" systemVersion="14A388a" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="6249"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="JRUUIDViewController">
+            <connections>
+                <outlet property="uuidOutput" destination="omP-0E-Smp" id="yJX-iG-BSm"/>
+                <outlet property="view" destination="Hz6-mo-xeY" id="0bl-1N-x8E"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="Hz6-mo-xeY">
+            <rect key="frame" x="0.0" y="0.0" width="480" height="112"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="WoJ-a3-dQG">
+                    <rect key="frame" x="20" y="18" width="210" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="27" id="52i-mi-cTs"/>
+                        <constraint firstAttribute="width" constant="210" id="emd-Uf-amf"/>
+                    </constraints>
+                    <buttonCell key="cell" type="squareTextured" title="Generate New UUID" bezelStyle="texturedSquare" imagePosition="overlaps" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="JYA-c1-UGA">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="generateUUID:" target="-2" id="Mnq-c2-oL7"/>
+                    </connections>
+                </button>
+                <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="EAF-zI-FaJ">
+                    <rect key="frame" x="250" y="18" width="210" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="210" id="aYg-AU-96q"/>
+                        <constraint firstAttribute="height" constant="27" id="wen-0c-nMx"/>
+                    </constraints>
+                    <buttonCell key="cell" type="squareTextured" title="Generate New UUID and Copy" bezelStyle="texturedSquare" imagePosition="overlaps" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="JOc-LT-5e0">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="generateAndCopy:" target="-2" id="MRY-SO-k7X"/>
+                    </connections>
+                </button>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="omP-0E-Smp">
+                    <rect key="frame" x="18" y="67" width="444" height="25"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="25" id="Ags-Qb-2xL"/>
+                    </constraints>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" allowsUndo="NO" sendsActionOnEndEditing="YES" alignment="center" title="936E308D-D6AC-43B5-9370-F0D08742ED0B" id="Idu-PA-oQG">
+                        <font key="font" metaFont="system" size="20"/>
+                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+            </subviews>
+            <constraints>
+                <constraint firstItem="EAF-zI-FaJ" firstAttribute="top" secondItem="omP-0E-Smp" secondAttribute="bottom" constant="20" id="5Bs-4j-XeQ"/>
+                <constraint firstItem="WoJ-a3-dQG" firstAttribute="leading" secondItem="Hz6-mo-xeY" secondAttribute="leading" constant="20" id="9Rw-oj-iUX"/>
+                <constraint firstItem="WoJ-a3-dQG" firstAttribute="top" secondItem="omP-0E-Smp" secondAttribute="bottom" constant="20" id="UVN-ZA-AOS"/>
+                <constraint firstItem="omP-0E-Smp" firstAttribute="leading" secondItem="Hz6-mo-xeY" secondAttribute="leading" constant="20" id="W0B-2g-MES"/>
+                <constraint firstItem="omP-0E-Smp" firstAttribute="top" secondItem="Hz6-mo-xeY" secondAttribute="top" constant="20" id="bzy-m0-BCs"/>
+                <constraint firstAttribute="trailing" secondItem="EAF-zI-FaJ" secondAttribute="trailing" constant="20" id="t0Y-Ej-PMh"/>
+                <constraint firstAttribute="trailing" secondItem="omP-0E-Smp" secondAttribute="trailing" constant="20" id="veW-d8-fDS"/>
+            </constraints>
+            <point key="canvasLocation" x="305" y="312"/>
+        </customView>
+    </objects>
+</document>
