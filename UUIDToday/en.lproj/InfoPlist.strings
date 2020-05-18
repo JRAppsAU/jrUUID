@@ -1,0 +1,4 @@
+/* Display name and description for this extension. */
+"CFBundleDisplayName" = "jrUUID";
+"com.apple.notificationcenter.widget.description" = "Quickly generate a UUID";
+
