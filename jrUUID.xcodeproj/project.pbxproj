@@ -12,23 +12,7 @@
 		0342621A24723CB300813900 /* NSMenuItem+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0342621924723C3A00813900 /* NSMenuItem+Additions.swift */; };
 		0342621D24723DD000813900 /* CodeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0342621C24723DD000813900 /* CodeManager.swift */; };
 		034262212472432800813900 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 034262202472432800813900 /* MainMenu.xib */; };
-		034262432472450600813900 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 034262422472450600813900 /* NotificationCenter.framework */; };
-		034262462472450600813900 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034262452472450600813900 /* TodayViewController.swift */; };
-		034262492472450600813900 /* TodayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 034262472472450600813900 /* TodayViewController.xib */; };
-		0342624D2472450600813900 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0342624B2472450600813900 /* InfoPlist.strings */; };
-		034262512472450600813900 /* UUIDToday.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 034262402472450600813900 /* UUIDToday.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		0342625624724B3E00813900 /* CodeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0342621C24723DD000813900 /* CodeManager.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		0342624F2472450600813900 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 034261FC24723B2800813900 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0342623F2472450600813900;
-			remoteInfo = UUIDToday;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		034262552472450600813900 /* Embed App Extensions */ = {
@@ -37,7 +21,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				034262512472450600813900 /* UUIDToday.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -53,13 +36,7 @@
 		0342621924723C3A00813900 /* NSMenuItem+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSMenuItem+Additions.swift"; sourceTree = "<group>"; };
 		0342621C24723DD000813900 /* CodeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeManager.swift; sourceTree = "<group>"; };
 		034262202472432800813900 /* MainMenu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
-		034262402472450600813900 /* UUIDToday.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = UUIDToday.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		034262422472450600813900 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
-		034262452472450600813900 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
-		034262482472450600813900 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/TodayViewController.xib; sourceTree = "<group>"; };
-		0342624A2472450600813900 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0342624C2472450600813900 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		0342624E2472450600813900 /* UUIDToday.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = UUIDToday.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,14 +47,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0342623D2472450600813900 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				034262432472450600813900 /* NotificationCenter.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -85,7 +54,6 @@
 			isa = PBXGroup;
 			children = (
 				0342620624723B2800813900 /* jrUUID */,
-				034262442472450600813900 /* UUIDToday */,
 				034262412472450600813900 /* Frameworks */,
 				0342620524723B2800813900 /* Products */,
 			);
@@ -95,7 +63,6 @@
 			isa = PBXGroup;
 			children = (
 				0342620424723B2800813900 /* jrUUID.app */,
-				034262402472450600813900 /* UUIDToday.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -162,18 +129,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		034262442472450600813900 /* UUIDToday */ = {
-			isa = PBXGroup;
-			children = (
-				034262452472450600813900 /* TodayViewController.swift */,
-				034262472472450600813900 /* TodayViewController.xib */,
-				0342624A2472450600813900 /* Info.plist */,
-				0342624B2472450600813900 /* InfoPlist.strings */,
-				0342624E2472450600813900 /* UUIDToday.entitlements */,
-			);
-			path = UUIDToday;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -189,29 +144,11 @@
 			buildRules = (
 			);
 			dependencies = (
-				034262502472450600813900 /* PBXTargetDependency */,
 			);
 			name = jrUUID;
 			productName = jrUUID;
 			productReference = 0342620424723B2800813900 /* jrUUID.app */;
 			productType = "com.apple.product-type.application";
-		};
-		0342623F2472450600813900 /* UUIDToday */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 034262522472450600813900 /* Build configuration list for PBXNativeTarget "UUIDToday" */;
-			buildPhases = (
-				0342623C2472450600813900 /* Sources */,
-				0342623D2472450600813900 /* Frameworks */,
-				0342623E2472450600813900 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = UUIDToday;
-			productName = UUIDToday;
-			productReference = 034262402472450600813900 /* UUIDToday.appex */;
-			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -224,9 +161,6 @@
 				ORGANIZATIONNAME = "JR Apps Pty. Ltd.";
 				TargetAttributes = {
 					0342620324723B2800813900 = {
-						CreatedOnToolsVersion = 11.4.1;
-					};
-					0342623F2472450600813900 = {
 						CreatedOnToolsVersion = 11.4.1;
 					};
 				};
@@ -245,7 +179,6 @@
 			projectRoot = "";
 			targets = (
 				0342620324723B2800813900 /* jrUUID */,
-				0342623F2472450600813900 /* UUIDToday */,
 			);
 		};
 /* End PBXProject section */
@@ -257,15 +190,6 @@
 			files = (
 				034262212472432800813900 /* MainMenu.xib in Resources */,
 				0342620A24723B2B00813900 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0342623E2472450600813900 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				034262492472450600813900 /* TodayViewController.xib in Resources */,
-				0342624D2472450600813900 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,43 +206,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0342623C2472450600813900 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0342625624724B3E00813900 /* CodeManager.swift in Sources */,
-				034262462472450600813900 /* TodayViewController.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		034262502472450600813900 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 0342623F2472450600813900 /* UUIDToday */;
-			targetProxy = 0342624F2472450600813900 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		034262472472450600813900 /* TodayViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				034262482472450600813900 /* Base */,
-			);
-			name = TodayViewController.xib;
-			sourceTree = "<group>";
-		};
-		0342624B2472450600813900 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0342624C2472450600813900 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		0342621024723B2B00813900 /* Debug */ = {
@@ -482,48 +370,6 @@
 			};
 			name = Release;
 		};
-		034262532472450600813900 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = UUIDToday/UUIDToday.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = L7R443CQYH;
-				ENABLE_HARDENED_RUNTIME = YES;
-				INFOPLIST_FILE = UUIDToday/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@executable_path/../../../../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = au.com.jrapps.jrUUID.UUIDToday;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		034262542472450600813900 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = UUIDToday/UUIDToday.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = L7R443CQYH;
-				ENABLE_HARDENED_RUNTIME = YES;
-				INFOPLIST_FILE = UUIDToday/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@executable_path/../../../../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = au.com.jrapps.jrUUID.UUIDToday;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -541,15 +387,6 @@
 			buildConfigurations = (
 				0342621324723B2B00813900 /* Debug */,
 				0342621424723B2B00813900 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		034262522472450600813900 /* Build configuration list for PBXNativeTarget "UUIDToday" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				034262532472450600813900 /* Debug */,
-				034262542472450600813900 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
