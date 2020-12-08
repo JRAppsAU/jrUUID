@@ -330,7 +330,7 @@
 				CODE_SIGN_ENTITLEMENTS = jrUUID/Assets/jrUUID.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = L7R443CQYH;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = jrUUID/Assets/Info.plist;
@@ -338,7 +338,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 2.0;
+				MARKETING_VERSION = 2.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = au.com.jrapps.jrUUID;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -354,7 +354,7 @@
 				CODE_SIGN_ENTITLEMENTS = jrUUID/Assets/jrUUID.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = L7R443CQYH;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = jrUUID/Assets/Info.plist;
@@ -362,7 +362,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 2.0;
+				MARKETING_VERSION = 2.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = au.com.jrapps.jrUUID;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
