@@ -12,6 +12,7 @@
 		0342621A24723CB300813900 /* NSMenuItem+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0342621924723C3A00813900 /* NSMenuItem+Additions.swift */; };
 		0342621D24723DD000813900 /* CodeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0342621C24723DD000813900 /* CodeManager.swift */; };
 		034262212472432800813900 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 034262202472432800813900 /* MainMenu.xib */; };
+		03A6393E2761DF6300EE35F3 /* UUIDServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A6393D2761DF6300EE35F3 /* UUIDServices.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -38,6 +39,7 @@
 		034262202472432800813900 /* MainMenu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
 		034262422472450600813900 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
 		034A715326C0B46A00CB976A /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		03A6393D2761DF6300EE35F3 /* UUIDServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UUIDServices.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				0342621C24723DD000813900 /* CodeManager.swift */,
+				03A6393D2761DF6300EE35F3 /* UUIDServices.swift */,
 			);
 			path = Manager;
 			sourceTree = "<group>";
@@ -202,6 +205,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03A6393E2761DF6300EE35F3 /* UUIDServices.swift in Sources */,
 				0342621A24723CB300813900 /* NSMenuItem+Additions.swift in Sources */,
 				0342621D24723DD000813900 /* CodeManager.swift in Sources */,
 				0342620824723B2800813900 /* AppDelegate.swift in Sources */,
@@ -335,7 +339,9 @@
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 4;
+				DEPLOYMENT_LOCATION = YES;
 				DEVELOPMENT_TEAM = L7R443CQYH;
+				DSTROOT = /;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = jrUUID/Assets/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -360,6 +366,7 @@
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 4;
+				DEPLOYMENT_LOCATION = YES;
 				DEVELOPMENT_TEAM = L7R443CQYH;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = jrUUID/Assets/Info.plist;

@@ -11,6 +11,13 @@ import Cocoa
 
 class CodeManager {
     
+    /// Generate a UUID.
+    ///
+    /// - Returns: The UUID
+    @objc static func generate() -> String {
+        return NSUUID().uuidString.lowercased()
+    }
+    
     /// Generate and copy UUIDs.
     ///
     /// - Parameter count: Number of codes to make..
@@ -19,7 +26,7 @@ class CodeManager {
         var contents: [String] = [];
         
         for _ in 0..<count {
-            contents.append(NSUUID().uuidString.lowercased())
+            contents.append(CodeManager.generate())
         }
 
         // Copy

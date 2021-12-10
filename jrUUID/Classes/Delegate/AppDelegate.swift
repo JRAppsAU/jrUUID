@@ -18,6 +18,9 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         // Insert code here to initialise your application
         constructMenu()
+        
+        // Register service
+        NSApp.servicesProvider = UUIDServices()
     }
 
     func applicationWillTerminate(_ aNotification: Notification) {
