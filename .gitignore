@@ -24,3 +24,11 @@ DerivedData
 Pods
 Pods/
 Podfile.lock
+
+# Fastlane
+fastlane/
+Gemfile
+Gemfile.lock
+*.app
+*.dSYM.zip
+*.pkg

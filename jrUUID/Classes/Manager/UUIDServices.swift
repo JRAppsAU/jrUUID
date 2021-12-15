@@ -20,4 +20,8 @@ class UUIDServices {
         }
     }
     
+    @objc func generateReplaceUuid(_ userData: Any?, _ error: Any?) {
+        generateUuid(userData, error)
+    }
+    
 }
